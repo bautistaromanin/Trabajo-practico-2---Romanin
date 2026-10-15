@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif; 
+    font: Arial; 
     background-color: #fcf8f2;     
     color: #333333;               
     margin: 20px;         
@@ -10,18 +10,32 @@ header {
     color: white;                   
     text-align: center;             
     padding: 15px;                  
-    border-radius: 8px;      
+    border: 8px;  
 }
 
 h2, h3 {
     color: #d35400;                 
 }
 
-
 img {
-    max-width: 100%;                
-    height: auto;
-    border-radius: 8px;             
-    display: block;                 
-    margin: 15px 0;               
+    width: 100px;                
+    height: 40px;
+    border: 8px;                         
+    margin: 15px;               
+}
+
+ul {
+    background-color: white;        
+    padding: 20px;            
+    border: 8px;            
+}
+
+a {
+    color: #e74c3c;                                     
+}
+
+footer {
+    text-align: center;             
+    margin: 40px;               
+    color: #7f8c8d;                            
 }
